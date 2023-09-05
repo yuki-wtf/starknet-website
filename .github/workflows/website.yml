@@ -64,7 +64,7 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          projectName: devops-starknet-website
+          projectName: devops-starknet
           directory: dist/client
           workingDirectory: workspaces/website
           wranglerVersion: '3'
