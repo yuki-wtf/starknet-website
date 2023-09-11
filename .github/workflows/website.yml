@@ -62,8 +62,8 @@ jobs:
       - name: Publish
         uses: cloudflare/pages-action@v1
         with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          apiToken: "ZIMdCUkTRAbv3kHPq7zciT4RSPUBBq1-tV4icqUP"
+          accountId: "b641d0ee218c45206280ee1d75798100"
           projectName: devops-starknet
           directory: dist/client
           workingDirectory: workspaces/website
