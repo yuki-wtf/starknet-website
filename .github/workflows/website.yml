@@ -62,9 +62,9 @@ jobs:
       - name: Publish
         uses: cloudflare/pages-action@v1
         with:
-          apiToken: "ZIMdCUkTRAbv3kHPq7zciT4RSPUBBq1-tV4icqUP"
-          accountId: "b641d0ee218c45206280ee1d75798100"
-          projectName: devops-starknet
+          apiToken: "9PSeeVAUUhSthRk-p4ohcwfJv9Cp--st6MAE-LEc"
+          accountId: "59382bbcb5735de2f8818797873d1eb2"
+          projectName: starknet-website
           directory: dist/client
           workingDirectory: workspaces/website
           wranglerVersion: '3'
