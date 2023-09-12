@@ -65,7 +65,7 @@ jobs:
           apiToken: "9PSeeVAUUhSthRk-p4ohcwfJv9Cp--st6MAE-LEc"
           accountId: "59382bbcb5735de2f8818797873d1eb2"
           projectName: starknet-website
-          directory: dist/client
+          directory: dist
           workingDirectory: workspaces/website
           wranglerVersion: '3'
           branch: ${{ github.ref_name == 'production' && 'main' || github.ref_name }}
